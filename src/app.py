@@ -9,9 +9,9 @@ from groq import Groq
 load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-INPUT_FILE = "resume_dataset.csv"
-OUTPUT_FILE = "final_labeled_dataset.csv"
-CHECKPOINT_FILE = "checkpoint.csv"
+INPUT_FILE = "data/input/resume_dataset.csv"
+OUTPUT_FILE = "data/output/final_labeled_dataset.csv"
+CHECKPOINT_FILE = "data/checkpoint/checkpoint.csv"
 
 CATEGORY_COLUMN = "Category"
 
