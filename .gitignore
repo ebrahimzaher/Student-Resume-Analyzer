@@ -1,7 +1,5 @@
 .env
+myenv/
 *.csv
-venv/
-env/
-.venv/
 __pycache__/
 *.pyc
