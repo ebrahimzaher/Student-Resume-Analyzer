@@ -1,7 +1,10 @@
 pandas
-matplotlib
-seaborn
 scikit-learn
+transformers
+accelerate
+torch
+torchvision
+torchaudio
+PyPDF2
+streamlit
 python-dotenv
-langchain-groq
-langchain-core
